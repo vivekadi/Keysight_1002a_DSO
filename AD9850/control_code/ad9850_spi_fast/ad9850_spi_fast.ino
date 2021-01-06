@@ -7,7 +7,7 @@ const int RESET_PIN = 9;
 
 // Arduino Pin->11 to DDS Pin->7 for DATA line in SPI comm
 
-double freq = 1;              // 1Hz signal of sine or sq, sine level is lower than square
+double freq = 100;              // 1Hz signal of sine or sq, sine level is lower than square
 double trimFreq = 124999500;  // Clock freq in double format
 
 int phase = 0;
